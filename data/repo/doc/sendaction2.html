@@ -1,0 +1,76 @@
+<!--
+title: SendAction
+description: 
+published: true
+date: 2022-03-20T20:05:36.615Z
+tags: 
+editor: ckeditor
+dateCreated: 2022-03-20T20:05:36.615Z
+-->
+
+<h1><u>Les commandes Send Action</u></h1>
+<h2><u>Afficher la page météo :</u></h2>
+<p>Affiche la page des informations avancée de votre widget météo.<br>&nbsp;</p>
+<h2><u>Afficher Horloge :</u></h2>
+<p>Non fonctionnel pour le moment<br>&nbsp;</p>
+<h2><u>Afficher Alarme :</u></h2>
+<p>Affiche la page avancée de vos Alarme, celle affichée sera la première par ordre Alphabétique.<br>&nbsp;</p>
+<h2><u>Afficher le digicode :</u></h2>
+<p>Affiche si vous en effet configuré un dans les options de jeemate le digicode. Entrer votre code pour le fermer.<br><br>&nbsp;</p>
+<h2><u>Afficher la synthèse :</u></h2>
+<p>Affiche la page synthèse de votre installation, vous pouvez personnaliser les images des pièces ainsi que les résumes depuis la page objets de Jeedom.<br><br>&nbsp;</p>
+<p>&nbsp;</p>
+<h2><u>Smart Caméra :</u></h2>
+<p>Non fonctionnel pour le moment<br><br>&nbsp;</p>
+<p>&nbsp;</p>
+<h2><u>Verrouiller application :</u></h2>
+<p>Non fonctionnel pour le moment<br><br>&nbsp;</p>
+<p>&nbsp;</p>
+<h2><u>Assistant vocal :</u></h2>
+<p>Non fonctionnel pour le moment<br><br>&nbsp;</p>
+<p>&nbsp;</p>
+<h2><u>Régénerer interface :</u></h2>
+<p>Permet de faire un regen de votre interface jeemate<br><br>&nbsp;</p>
+<p>&nbsp;</p>
+<h2><u>Lancer une application :</u></h2>
+<p>Vous permet de démarrer une des applications présente sur votre équipement.<br>saisir dans le champ «&nbsp;message&nbsp;» le nom de l’apk.<br><br><u>exemple</u><br>pour lancer chrome saisir <u>com.android.chrome</u><br>pour lancer anticovid saisir <u>fr.gouv.android.stopcovid</u></p>
+<p>Pour récupérer facilement le nom de l’apk (android), click long sur l’icone de votre application, informations, puis le petit i en haut à droite.</p>
+<figure class="image"><img src="https://jeemate.fr/wp-content/uploads/2021/11/LaunchApp02-300x212.jpg" alt="" srcset="https://jeemate.fr/wp-content/uploads/2021/11/LaunchApp02-300x212.jpg 300w, https://jeemate.fr/wp-content/uploads/2021/11/LaunchApp02.jpg 609w" sizes="100vw" width="300"></figure>
+<p><br><br><br>&nbsp;</p>
+<h2><u>Afficher un design :</u></h2>
+<p>Dans le champ message saisir l’id du design. Seule les designs coché dans Jeemate configuration sont affichable par cette commande.<br><br>Vous trouverez cette informations soit dans l’url de votre design, soit dans le fichier GetDesign (Jeemate / Debug Fonction)<br><br><br>&nbsp;</p>
+<p>&nbsp;</p>
+<h2><u>Afficher la pièce :</u></h2>
+<p>Dans le champ message saisir l’id de la pièce. Seule les pièces cochées dans Jeemate configuration sont affichable par cette commande.<br><br>Vous trouverez cette informations soit dans l’url de votre pièce, soit dans le fichier GetObjects (Jeemate / Debug Fonction)<br><br><br>&nbsp;</p>
+<p>&nbsp;</p>
+<h2><u>Afficher un onglet :</u></h2>
+<p>Dans le champ message saisir l’id de l’onglet à afficher.<br><br>L’id de l’onglet Home est le 0, ensuite l’id est incrémenter sur les onglets actifs.<br><br><br>&nbsp;</p>
+<h2><u>Show Flap :</u></h2>
+<p>Non fonctionnel pour le moment</p>
+<h2><u>Set Android Alarm :</u></h2>
+<p>Vous permet de créer un Alarme sur votre devise Android.</p>
+<p>Dans le champ titre il vous faut indiquer les informations de répétition, soit non, soit les jours de répétition.</p>
+<figure class="image"><img src="https://jeemate.fr/wp-content/uploads/2021/11/android-alarm-03.png" alt=""></figure>
+<p><br>Pour que l’alarme soit seulement sur la journée en cour laisser le champ vide.<br>Pour répéter l’alarme le lundi, jeudi et samedi mettre 2,5,7 ou 0,2,5</p>
+<figure class="image"><img src="https://jeemate.fr/wp-content/uploads/2021/11/android-alarm-01.png" alt=""></figure>
+<p>Exemple sur le dashboard</p>
+<p>Dans le champ message indiquer l’heure et le titre de l’alarme sous la forme suivante :<br>heure;titre<br>12:00;mon alarme</p>
+<figure class="image"><img src="https://jeemate.fr/wp-content/uploads/2021/11/android-alarm-02-1024x52.png" alt="" srcset="https://jeemate.fr/wp-content/uploads/2021/11/android-alarm-02-1024x52.png 1024w, https://jeemate.fr/wp-content/uploads/2021/11/android-alarm-02-300x15.png 300w, https://jeemate.fr/wp-content/uploads/2021/11/android-alarm-02-768x39.png 768w, https://jeemate.fr/wp-content/uploads/2021/11/android-alarm-02-1536x78.png 1536w, https://jeemate.fr/wp-content/uploads/2021/11/android-alarm-02.png 1730w" sizes="100vw" width="1024"></figure>
+<p>exemple depuis un scénario</p>
+<p><br><br><br>&nbsp;</p>
+<p>&nbsp;</p>
+<h2><u>Afficher URL :</u></h2>
+<p>Saisir simplement l’url au format www.jeemate.fr dans le champ message.<br><br><br>&nbsp;</p>
+<p>&nbsp;</p>
+<h2><u>Show Screen :</u></h2>
+<p>Vous permets d’allumer ou d’éteindre votre équipement Android.</p>
+<p>Important : il faut autoriser Jeemate à faire un ScreenOnOff dans les paramètre android (Applis d’administration de l’appareil).</p>
+<figure class="image"><img src="https://jeemate.fr/wp-content/uploads/2021/11/ShowScreen01.jpg" alt="" srcset="https://jeemate.fr/wp-content/uploads/2021/11/ShowScreen01.jpg 498w, https://jeemate.fr/wp-content/uploads/2021/11/ShowScreen01-285x300.jpg 285w" sizes="100vw" width="249"></figure>
+<figure class="image"><img src="https://jeemate.fr/wp-content/uploads/2021/11/ShowScreen02.jpg" alt="" srcset="https://jeemate.fr/wp-content/uploads/2021/11/ShowScreen02.jpg 371w, https://jeemate.fr/wp-content/uploads/2021/11/ShowScreen02-158x300.jpg 158w" sizes="100vw" width="278"></figure>
+<p>Pas le choix, il faut en assumer les risques.</p>
+<p><br><br><br>&nbsp;</p>
+<p>&nbsp;</p>
+<h2><u>TTS Speak :</u></h2>
+<p>Plus d’infos à venir dans une section dédiée.</p>
+<h2><u>Envoyer des SMS :</u></h2>
+<p>&nbsp;Plus d’infos à venir dans une section dédiée.</p>
