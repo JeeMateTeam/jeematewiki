@@ -1,0 +1,60 @@
+<!--
+title: Premier lancement
+description: 
+published: true
+date: 2022-03-20T19:28:55.947Z
+tags: 
+editor: ckeditor
+dateCreated: 2022-03-20T19:28:55.947Z
+-->
+
+<h1>Premier lancement</h1>
+<p>Bienvenu dans le premier tutoriel Jeemate.</p>
+<p>Dans ce tutoriel :</p>
+<ul>
+  <li>Les bases de la configuration de Jeedom prérequis</li>
+  <li>Les bases de la configuration Jeemate</li>
+  <li>Premier lancement de l'application</li>
+</ul>
+<h1>Les bases Jeedom</h1>
+<p>Pour une bonne utilisation de JeeMate, il est nécessaire de connaitre les prérequis Jeedom nécessaires à l'autoconfiguration de JeeMate.</p>
+<p>L'application Jeemate repose principalement sur deux principes :</p>
+<ol>
+  <li>La configuration des génériques types de vos équipements</li>
+  <li>La configuration automatique des équipements issue des plugins gérés nativement par JeeMate</li>
+</ol>
+<h2>Les génériques types</h2>
+<p>Les génériques types permettent à différents plugins d'identifier l'équipement et d'adapter sa configuration.</p>
+<p>Ex un équipement binaire peut être une lumière, une porte, une fenêtre, un contacteur de chaudière …</p>
+<p>Sans le positionnement du type générique, il est impossible pour un Google Home, Alexi, Jeemate de savoir à quoi correspond l'équipement Jeedom.</p>
+<p>La bonne nouvelle, c'est que de plus en plus de plugin configurent automatiquement les génériques types, mais d'autres non. Il faudra donc vérifier vos équipements et position le bon type pour les commandes.</p>
+<p>Un très bon plugin, Homebridge, à bien documenté cette configuration des génériques types <a href="https://nebzhb.github.io/jeedom_docs/plugins/homebridge/fr_FR/#tocAnchor-1-10">Docu Nebz &gt; Plugin Homebridge (nebzhb.github.io).</a></p>
+<h2>Les bases JeeMate</h2>
+<h3>Configuration&nbsp;</h3>
+<p>Aller dans le plugin Jeemate “Plugins”⇒"Gestion des plugins"⇒"Communication"⇒"JeeMate"</p>
+<figure class="image"><img src="/plugin-conf01.png"></figure>
+<h3>Configuration des objects</h3>
+<p>Dans l'onglet “Object” :</p>
+<ol>
+  <li>cocher les pièces/ objets à remonter dans JeeMate</li>
+  <li>ouvrir la pièce pour accéder aux équipements</li>
+</ol>
+<figure class="image"><img src="/plugins-jeemate-01.png"></figure>
+<h3>Configuration des équipements</h3>
+<ol>
+  <li>Sélectionner les équipements à remonter dans JeeMate</li>
+  <li>Ouvrir la page détail. Permets entre autres de configurer les génériques type.</li>
+  <li>Sauvegarde</li>
+</ol>
+<figure class="image"><img src="/plugins-jeemate-02b.png"></figure>
+<h3>Configuration type générique</h3>
+<ol>
+  <li>Choix du générique type</li>
+  <li>vérification ou modification des liens entre la commande et l'info état de cette dernière</li>
+  <li>Inverser l'affichage dans JeeMate (un autre tuto présentera toutes les options d'inversion possible)</li>
+  <li>changer le nom d'affichage dans JeeMate</li>
+</ol>
+<figure class="image"><img src="/plugins-jeemate-03.png"></figure>
+<h2>Premier lancement de l'application</h2>
+<p>Suivre la procédure d'<a href="/doc/appairage">Appairage</a></p>
+<p>&nbsp;</p>
