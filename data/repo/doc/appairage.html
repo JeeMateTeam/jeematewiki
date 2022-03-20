@@ -1,0 +1,69 @@
+<!--
+title: Appairage
+description: 
+published: true
+date: 2022-03-20T20:08:49.355Z
+tags: 
+editor: ckeditor
+dateCreated: 2022-03-20T20:08:49.355Z
+-->
+
+<h2>Appairage du plugin JeeMate avec votre appareil</h2>
+<p>Après téléchargement du plugin, vous devez commencer par l’activer.</p>
+<p>&nbsp;</p>
+<p>Ensuite, vous devez&nbsp;<strong>créer un équipement</strong>. Pour cela :</p>
+<p><br>1. Accéder à la page «&nbsp;Plugins &gt; Communication &gt; JeeMate&nbsp;»</p>
+<p>&nbsp;</p>
+<figure class="image"><img src="https://dev.jeemate.fr/wp-content/uploads/2021/07/jeemate_select_plugin.webp" alt="" srcset="https://jeemate.fr/wp-content/uploads/2021/07/jeemate_select_plugin.webp 450w, https://jeemate.fr/wp-content/uploads/2021/07/jeemate_select_plugin-300x279.webp 300w" sizes="100vw" width="450"></figure>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>2. Cliquer sur «&nbsp;Ajouter&nbsp;» pour créer votre premier appareil.</p>
+<p>&nbsp;</p>
+<figure class="image"><img src="https://jeemate.fr/wp-content/uploads/2021/10/Appairage01-1024x334.png" alt=""></figure>
+<ol>
+  <li>Saisir/sélectionner les informations concernant votre nouvel appareil: nom, objet Jeedom, utilisateur Jeedom que vous souhaitez rattacher, les droits JeeMate.</li>
+</ol>
+<ul>
+  <li>Utilisateur : permet de définir quel utilisateur Jeedom se connecte à l’application. Les droits utilisateurs configurés dans Jeedom sont pris en compte par JeeMate.</li>
+  <li>Droit de renommer : autorise l’utilisateur à renommer l’équipement depuis l’application mobile. Il s’agit d’un nom d’équipement alternatif, il n’écrase pas le nom que vous avez défini dans Jeedom.</li>
+  <li>Droit de changer la visibilité : permet de choisir depuis l’application mobile les équipements visibles ou non</li>
+</ul>
+<figure class="image"><img src="https://dev.jeemate.fr/wp-content/uploads/2021/07/jeemate_add_device_2-1024x428.webp" alt="" srcset="https://jeemate.fr/wp-content/uploads/2021/07/jeemate_add_device_2-1024x428.webp 1024w, https://jeemate.fr/wp-content/uploads/2021/07/jeemate_add_device_2-300x125.webp 300w, https://jeemate.fr/wp-content/uploads/2021/07/jeemate_add_device_2-768x321.webp 768w, https://jeemate.fr/wp-content/uploads/2021/07/jeemate_add_device_2.webp 1186w" sizes="100vw" width="1024"></figure>
+<ol>
+  <li>Choisir le mode d’appairage:</li>
+</ol>
+<ul>
+  <li>via QrCode</li>
+  <li>via l’appairage automatique (réseau local uniquement)</li>
+</ul>
+<ol>
+  <li>Premier lancement de l’app JeeMate</li>
+</ol>
+<ul>
+  <li>Si ce n’est pas déjà fait, installer l’application depuis le store ou en la téléchargeant sur le site</li>
+  <li>Puis suivez les étapes proposées dans l’assistant si elles n’ont pas déjà été faites précédemment</li>
+  <li>Scanner le QR code présent ou effectuer l’appairage auto sur l’équipement créé sur Jeedom.</li>
+  <li>Valider la procédure.</li>
+</ul>
+<p><strong>Pour qu’un équipement apparaisse dans JeeMate, l’équipement doit:</strong></p>
+<ul>
+  <li><strong>être visible, rafraichir la page si ce n’est pas le cas.</strong></li>
+  <li><strong>avec des types génériques configurés sur ses commandes info et action. Sauf si le plugin est compatible avec gestion avancée (voir section fonctionnalités la liste des plugins).</strong></li>
+</ul>
+<p>Pour chaque équipement créé, une liste de commandes est disponible ainsi qu’un onglet « Backups » permettant de gérer les sauvegardes de la configuration de l’application mobile par utilisateur.</p>
+<p>Depuis le plugin, sont disponibles :</p>
+<ul>
+  <li><strong>Configuration</strong> et administration de l’appairage</li>
+  <li><strong>Vos appareils</strong> : liste les appareils utilisé avec jeemate et l’équipement auquel ils sont rattaché.</li>
+  <li><strong>Configuration Jeemate</strong>: permet de définir depuis le plugin quels équipements, scénarios ou designs importer (peut aussi être géré depuis l’application mobile) ainsi que leurs types génériques.</li>
+  <li><strong>Géo repérage</strong> : permet de définir les zones de géolocalisation. (plus d’infos, section géolocalisation)</li>
+  <li><strong>Notifications</strong> : permet de configurer des modèles de notifications. (plus d’infos, section notifications)</li>
+  <li><strong>Débug fonction</strong> : permet de nous fournir des informations concernant votre import pour le support</li>
+  <li>&nbsp;</li>
+</ul>
+<p><strong>Si certains de vos équipements ne sont pas importés dans l’application, vérifiez que :</strong></p>
+<ul>
+  <li>vos équipements sont actifs dans Jeedom</li>
+  <li>qu’ils fonctionnent correctement sur le dashboard Jeedom</li>
+  <li>qu’ils sont cochés/sélectionnés pour l’import dans le plugin JeeMate/Configuration JeeMate</li>
+</ul>
