@@ -1,0 +1,390 @@
+{
+    "name": "AskJeemate",
+    "isActive": "1",
+    "group": "Test",
+    "mode": "provoke",
+    "schedule": "",
+    "trigger": [
+        ""
+    ],
+    "timeout": "0",
+    "isVisible": "0",
+    "display": {
+        "name": "",
+        "icon": ""
+    },
+    "order": "9999",
+    "description": "",
+    "configuration": {
+        "timeDependency": 0,
+        "has_return": 0,
+        "logmode": "default",
+        "allowMultiInstance": "0",
+        "syncmode": "0",
+        "timeline::enable": "0",
+        "timeline::folder": ""
+    },
+    "elements": [
+        {
+            "name": null,
+            "type": "action",
+            "options": [],
+            "order": "0",
+            "subElements": [
+                {
+                    "name": null,
+                    "type": "action",
+                    "subtype": "action",
+                    "options": {
+                        "collapse": "0",
+                        "enable": "1"
+                    },
+                    "order": "0",
+                    "expressions": [
+                        {
+                            "type": "action",
+                            "subtype": "",
+                            "expression": "ask",
+                            "options": {
+                                "enable": "1",
+                                "background": "0",
+                                "question": "Combien font 5 +5  ?",
+                                "answer": "1;10;20",
+                                "variable": "AskJeemate",
+                                "timeout": "15",
+                                "cmd": "#[Jeemate][MI11-Octobre][(N) Notif Général]#"
+                            },
+                            "order": "0"
+                        },
+                        {
+                            "type": "element",
+                            "subtype": null,
+                            "expression": "270",
+                            "options": [],
+                            "order": "1",
+                            "element": {
+                                "name": null,
+                                "type": "if",
+                                "options": [],
+                                "order": "0",
+                                "subElements": [
+                                    {
+                                        "name": null,
+                                        "type": "if",
+                                        "subtype": "condition",
+                                        "options": {
+                                            "collapse": "0",
+                                            "enable": "1",
+                                            "allowRepeatCondition": "0"
+                                        },
+                                        "order": "0",
+                                        "expressions": [
+                                            {
+                                                "type": "condition",
+                                                "subtype": null,
+                                                "expression": "Variable(AskJeemate) == \"10\"",
+                                                "options": [],
+                                                "order": "0"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": null,
+                                        "type": "then",
+                                        "subtype": "action",
+                                        "options": [],
+                                        "order": "1",
+                                        "expressions": [
+                                            {
+                                                "type": "action",
+                                                "subtype": "",
+                                                "expression": "#[Jeemate][MI11-Octobre][(N) Notif Général]#",
+                                                "options": {
+                                                    "enable": "1",
+                                                    "background": "0",
+                                                    "title": "Bien joué",
+                                                    "message": "félicitations !!!"
+                                                },
+                                                "order": "0"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": null,
+                                        "type": "else",
+                                        "subtype": "action",
+                                        "options": [],
+                                        "order": "2",
+                                        "expressions": [
+                                            {
+                                                "type": "element",
+                                                "subtype": null,
+                                                "expression": "447",
+                                                "options": [],
+                                                "order": "0",
+                                                "element": {
+                                                    "name": null,
+                                                    "type": "if",
+                                                    "options": [],
+                                                    "order": "0",
+                                                    "subElements": [
+                                                        {
+                                                            "name": null,
+                                                            "type": "if",
+                                                            "subtype": "condition",
+                                                            "options": {
+                                                                "collapse": "0",
+                                                                "enable": "1",
+                                                                "allowRepeatCondition": "0"
+                                                            },
+                                                            "order": "0",
+                                                            "expressions": [
+                                                                {
+                                                                    "type": "condition",
+                                                                    "subtype": null,
+                                                                    "expression": "Variable(AskJeemate) == \"1\" || Variable(AskJeemate) == \"20\"",
+                                                                    "options": [],
+                                                                    "order": "0"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": null,
+                                                            "type": "then",
+                                                            "subtype": "action",
+                                                            "options": [],
+                                                            "order": "1",
+                                                            "expressions": [
+                                                                {
+                                                                    "type": "action",
+                                                                    "subtype": null,
+                                                                    "expression": "ask",
+                                                                    "options": {
+                                                                        "enable": "1",
+                                                                        "background": "0",
+                                                                        "question": "Combien font 5 +5  ?",
+                                                                        "answer": "",
+                                                                        "variable": "AskJeemate",
+                                                                        "timeout": "15",
+                                                                        "cmd": "#[Jeemate][MI11-Octobre][(N) Notif Général]#"
+                                                                    },
+                                                                    "order": "0"
+                                                                },
+                                                                {
+                                                                    "type": "element",
+                                                                    "subtype": null,
+                                                                    "expression": "465",
+                                                                    "options": [],
+                                                                    "order": "1",
+                                                                    "element": {
+                                                                        "name": null,
+                                                                        "type": "if",
+                                                                        "options": [],
+                                                                        "order": "0",
+                                                                        "subElements": [
+                                                                            {
+                                                                                "name": null,
+                                                                                "type": "if",
+                                                                                "subtype": "condition",
+                                                                                "options": {
+                                                                                    "collapse": "0",
+                                                                                    "enable": "1",
+                                                                                    "allowRepeatCondition": "0"
+                                                                                },
+                                                                                "order": "0",
+                                                                                "expressions": [
+                                                                                    {
+                                                                                        "type": "condition",
+                                                                                        "subtype": null,
+                                                                                        "expression": "Variable(AskJeemate) == \"10\"",
+                                                                                        "options": [],
+                                                                                        "order": "0"
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "name": null,
+                                                                                "type": "then",
+                                                                                "subtype": "action",
+                                                                                "options": [],
+                                                                                "order": "1",
+                                                                                "expressions": [
+                                                                                    {
+                                                                                        "type": "action",
+                                                                                        "subtype": null,
+                                                                                        "expression": "#[Jeemate][MI11-Octobre][(N) Notif Général]#",
+                                                                                        "options": {
+                                                                                            "enable": "1",
+                                                                                            "background": "0",
+                                                                                            "title": "Bien joué",
+                                                                                            "message": "félicitations !!!"
+                                                                                        },
+                                                                                        "order": "0"
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "name": null,
+                                                                                "type": "else",
+                                                                                "subtype": "action",
+                                                                                "options": [],
+                                                                                "order": "2",
+                                                                                "expressions": [
+                                                                                    {
+                                                                                        "type": "element",
+                                                                                        "subtype": null,
+                                                                                        "expression": "466",
+                                                                                        "options": [],
+                                                                                        "order": "0",
+                                                                                        "element": {
+                                                                                            "name": null,
+                                                                                            "type": "if",
+                                                                                            "options": [],
+                                                                                            "order": "0",
+                                                                                            "subElements": [
+                                                                                                {
+                                                                                                    "name": null,
+                                                                                                    "type": "if",
+                                                                                                    "subtype": "condition",
+                                                                                                    "options": {
+                                                                                                        "collapse": "0",
+                                                                                                        "enable": "1",
+                                                                                                        "allowRepeatCondition": "0"
+                                                                                                    },
+                                                                                                    "order": "0",
+                                                                                                    "expressions": [
+                                                                                                        {
+                                                                                                            "type": "condition",
+                                                                                                            "subtype": null,
+                                                                                                            "expression": "Variable(AskJeemate) !== \"10\"",
+                                                                                                            "options": [],
+                                                                                                            "order": "0"
+                                                                                                        }
+                                                                                                    ]
+                                                                                                },
+                                                                                                {
+                                                                                                    "name": null,
+                                                                                                    "type": "then",
+                                                                                                    "subtype": "action",
+                                                                                                    "options": [],
+                                                                                                    "order": "1",
+                                                                                                    "expressions": [
+                                                                                                        {
+                                                                                                            "type": "action",
+                                                                                                            "subtype": null,
+                                                                                                            "expression": "#[Jeemate][MI11-Octobre][(N) Notif Général]#",
+                                                                                                            "options": {
+                                                                                                                "enable": "1",
+                                                                                                                "background": "0",
+                                                                                                                "title": "Loupé",
+                                                                                                                "message": "Essaye de nouveau après avoir révisé."
+                                                                                                            },
+                                                                                                            "order": "0"
+                                                                                                        }
+                                                                                                    ]
+                                                                                                },
+                                                                                                {
+                                                                                                    "name": null,
+                                                                                                    "type": "else",
+                                                                                                    "subtype": "action",
+                                                                                                    "options": [],
+                                                                                                    "order": "2",
+                                                                                                    "expressions": []
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": null,
+                                                            "type": "else",
+                                                            "subtype": "action",
+                                                            "options": [],
+                                                            "order": "2",
+                                                            "expressions": [
+                                                                {
+                                                                    "type": "element",
+                                                                    "subtype": null,
+                                                                    "expression": "448",
+                                                                    "options": [],
+                                                                    "order": "0",
+                                                                    "element": {
+                                                                        "name": null,
+                                                                        "type": "if",
+                                                                        "options": [],
+                                                                        "order": "0",
+                                                                        "subElements": [
+                                                                            {
+                                                                                "name": null,
+                                                                                "type": "if",
+                                                                                "subtype": "condition",
+                                                                                "options": {
+                                                                                    "collapse": "0",
+                                                                                    "enable": "1",
+                                                                                    "allowRepeatCondition": "0"
+                                                                                },
+                                                                                "order": "0",
+                                                                                "expressions": [
+                                                                                    {
+                                                                                        "type": "condition",
+                                                                                        "subtype": null,
+                                                                                        "expression": "Variable(AskJeemate) == \"Aucune réponse\"",
+                                                                                        "options": [],
+                                                                                        "order": "0"
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "name": null,
+                                                                                "type": "then",
+                                                                                "subtype": "action",
+                                                                                "options": [],
+                                                                                "order": "1",
+                                                                                "expressions": [
+                                                                                    {
+                                                                                        "type": "action",
+                                                                                        "subtype": null,
+                                                                                        "expression": "#[Jeemate][MI11-Octobre][(N) Notif Général]#",
+                                                                                        "options": {
+                                                                                            "enable": "1",
+                                                                                            "background": "0",
+                                                                                            "title": "Tu ne sais pas ?",
+                                                                                            "message": "Va réviser un peu."
+                                                                                        },
+                                                                                        "order": "0"
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "name": null,
+                                                                                "type": "else",
+                                                                                "subtype": "action",
+                                                                                "options": [],
+                                                                                "order": "2",
+                                                                                "expressions": []
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

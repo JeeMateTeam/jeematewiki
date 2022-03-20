@@ -1,0 +1,266 @@
+{
+    "name": "TestNotifMultiJeemate",
+    "isActive": "1",
+    "group": "Test",
+    "mode": "provoke",
+    "schedule": "",
+    "trigger": [
+        ""
+    ],
+    "timeout": "0",
+    "isVisible": "0",
+    "display": {
+        "name": "",
+        "icon": ""
+    },
+    "order": "9999",
+    "description": "",
+    "configuration": {
+        "timeDependency": 0,
+        "has_return": 0,
+        "logmode": "default",
+        "allowMultiInstance": "0",
+        "syncmode": "0",
+        "timeline::enable": "0",
+        "timeline::folder": ""
+    },
+    "elements": [
+        {
+            "name": null,
+            "type": "action",
+            "options": [],
+            "order": "0",
+            "subElements": [
+                {
+                    "name": null,
+                    "type": "action",
+                    "subtype": "action",
+                    "options": {
+                        "collapse": "0",
+                        "enable": "1"
+                    },
+                    "order": "0",
+                    "expressions": [
+                        {
+                            "type": "element",
+                            "subtype": null,
+                            "expression": "458",
+                            "options": [],
+                            "order": "0",
+                            "element": {
+                                "name": null,
+                                "type": "code",
+                                "options": [],
+                                "order": "0",
+                                "subElements": [
+                                    {
+                                        "name": null,
+                                        "type": "code",
+                                        "subtype": "action",
+                                        "options": {
+                                            "collapse": "0",
+                                            "enable": "1"
+                                        },
+                                        "order": "0",
+                                        "expressions": [
+                                            {
+                                                "type": "code",
+                                                "subtype": null,
+                                                "expression": "$tags = $scenario->getTags();\n\n$tags['#smiley#'] = \"\\u{26C4}\";\n$tags['#icone#'] = \"https:\/\/cdn.pixabay.com\/photo\/2021\/10\/31\/10\/23\/nature-6756974_960_720.png\";\n$tags['#image#'] = \"https:\/\/cdn.pixabay.com\/photo\/2018\/08\/12\/15\/29\/hintersee-3601004_960_720.jpg\";\n\n$scenario->setTags($tags);",
+                                                "options": [],
+                                                "order": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "subtype": null,
+                            "expression": "450",
+                            "options": [],
+                            "order": "1",
+                            "element": {
+                                "name": null,
+                                "type": "comment",
+                                "options": [],
+                                "order": "0",
+                                "subElements": [
+                                    {
+                                        "name": null,
+                                        "type": "comment",
+                                        "subtype": "comment",
+                                        "options": {
+                                            "collapse": "0"
+                                        },
+                                        "order": "0",
+                                        "expressions": [
+                                            {
+                                                "type": "comment",
+                                                "subtype": null,
+                                                "expression": "Notification : titre en gras\n",
+                                                "options": [],
+                                                "order": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "action",
+                            "subtype": null,
+                            "expression": "#[Jeemate][TousJeemate][Tous]#",
+                            "options": {
+                                "enable": "1",
+                                "background": "0",
+                                "title": "<strong>titre en gras<\/strong>",
+                                "message": "Mon message"
+                            },
+                            "order": "2"
+                        },
+                        {
+                            "type": "action",
+                            "subtype": null,
+                            "expression": "sleep",
+                            "options": {
+                                "enable": "1",
+                                "background": "0",
+                                "duration": "5"
+                            },
+                            "order": "3"
+                        },
+                        {
+                            "type": "action",
+                            "subtype": null,
+                            "expression": "#[Jeemate][TousJeemate][Tous]#",
+                            "options": {
+                                "enable": "1",
+                                "background": "0",
+                                "title": "title=<strong>customIcon et IconColor<\/strong>;;customIcon=far fa-grin-hearts;;iconColor=FF6C00",
+                                "message": "Ajout personnalisation Icone + couleur icone"
+                            },
+                            "order": "4"
+                        },
+                        {
+                            "type": "action",
+                            "subtype": null,
+                            "expression": "sleep",
+                            "options": {
+                                "enable": "1",
+                                "background": "0",
+                                "duration": "5"
+                            },
+                            "order": "5"
+                        },
+                        {
+                            "type": "action",
+                            "subtype": null,
+                            "expression": "#[Jeemate][TousJeemate][Tous]#",
+                            "options": {
+                                "enable": "1",
+                                "background": "0",
+                                "title": "title=<p style=\"color:#1175EF\"><strong>Smiley dans un tag tag(smiley)<\/strong><\/p>;;customIcon=far fa-snowflake;;iconColor=1175EF",
+                                "message": "Ajout smiley et texte en couleur"
+                            },
+                            "order": "6"
+                        },
+                        {
+                            "type": "action",
+                            "subtype": null,
+                            "expression": "sleep",
+                            "options": {
+                                "enable": "1",
+                                "background": "0",
+                                "duration": "5"
+                            },
+                            "order": "7"
+                        },
+                        {
+                            "type": "action",
+                            "subtype": null,
+                            "expression": "#[Jeemate][TousJeemate][Tous]#",
+                            "options": {
+                                "enable": "1",
+                                "background": "0",
+                                "title": "title=<strong>bigPicture<\/strong>;;customIcon=far fa-snowflake;;iconColor=1175EF;;bigPicture=tag(image)",
+                                "message": "Ajout image"
+                            },
+                            "order": "8"
+                        },
+                        {
+                            "type": "action",
+                            "subtype": null,
+                            "expression": "sleep",
+                            "options": {
+                                "enable": "1",
+                                "background": "0",
+                                "duration": "5"
+                            },
+                            "order": "9"
+                        },
+                        {
+                            "type": "action",
+                            "subtype": null,
+                            "expression": "#[Jeemate][TousJeemate][Tous]#",
+                            "options": {
+                                "enable": "1",
+                                "background": "0",
+                                "title": "title=<strong>notificationLayout<\/strong>;;notificationLayout=bigPicture;;customIcon=far fa-star;;iconColor=FCD600;;bigPicture=tag(image)",
+                                "message": "Ajout visibilité de l'image dans le centre de notif système."
+                            },
+                            "order": "10"
+                        },
+                        {
+                            "type": "action",
+                            "subtype": null,
+                            "expression": "sleep",
+                            "options": {
+                                "enable": "1",
+                                "background": "0",
+                                "duration": "5"
+                            },
+                            "order": "11"
+                        },
+                        {
+                            "type": "action",
+                            "subtype": null,
+                            "expression": "#[Jeemate][TousJeemate][Tous]#",
+                            "options": {
+                                "enable": "1",
+                                "background": "0",
+                                "title": "title=<strong>largeIcon<\/strong>;;notificationLayout=bigPicture;;customIcon=far fa-star;;iconColor=FCD600;;bigPicture=tag(image);;largeIcon=tag(icone)",
+                                "message": "Ajout icone à droite du texte dans la notif système"
+                            },
+                            "order": "12"
+                        },
+                        {
+                            "type": "action",
+                            "subtype": null,
+                            "expression": "sleep",
+                            "options": {
+                                "enable": "1",
+                                "background": "0",
+                                "duration": "5"
+                            },
+                            "order": "13"
+                        },
+                        {
+                            "type": "action",
+                            "subtype": null,
+                            "expression": "#[Jeemate][TousJeemate][Tous]#",
+                            "options": {
+                                "enable": "1",
+                                "background": "0",
+                                "title": "title=<strong>backgroungColor<\/strong>;;notificationLayout=bigPicture;;customIcon=far fa-star;;iconColor=FCD600;;bigPicture=tag(image);;largeIcon=tag(icone);;backgroundColor=FC00F0",
+                                "message": "Personnalise couleur icone du centre de notification (suivant OS et surcouche)"
+                            },
+                            "order": "14"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
