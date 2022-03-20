@@ -1,0 +1,198 @@
+<!--
+title: Configuration
+description: 
+published: true
+date: 2022-03-20T20:08:19.506Z
+tags: 
+editor: ckeditor
+dateCreated: 2022-03-20T20:08:19.506Z
+-->
+
+<h1>Configuration</h1>
+<p>Le menu «&nbsp;Configuration&nbsp;» permet de paramétrer :</p>
+<ul>
+  <li>les notifications avec TTS ou non</li>
+  <li>la géolocalisation (Activer, définir des zones, affiner les réglages pour le geofencing et la durée de la batterie)</li>
+  <li>le lien JeeMate&lt;-&gt;Jeedom. Ici rien à configurer. Mais ce menu permet de synchroniser JeeMate avec votre serveur Jeedom et de mettre à jour de nouveaux équipements. Il permet sinon, de ré-appairer votre téléphone, ou bien de remettre à zéro l’interface graphique</li>
+  <li>Activer la détection d’objet de la caméra de votre appareil et plus tard envoyer la vidéo vers Jeedom</li>
+  <li>Activer le service SMS pour recevoir ou envoyer des SMS, avec gestion d’une liste blanche des contacts</li>
+  <li>Active le service SIP. Pour l’instant testé uniquement avec Asterisk. Sert à communiquer en audio+vidéo avec par exemple des portiers vidéos, softphones etc</li>
+  <li>Sécurité (Activer ou non les biométriques, digicode etc). Afin d’empêcher que quelqu’un d’autre n’utilise JeeMate.</li>
+  <li>Thèmes&amp;Langues. Entre autres, afficher une image, ou des dégradés de couleurs, en fond d’écran, activer le thème jour/nuit, choisir les fonds d’écran pour chaque mode etc</li>
+  <li>Sauver/Importer App. Permet de sauvegarder la configuration, les favoris, pièces etc de JeeMate dans votre serveur Jeedom. Importer permet donc de réimporter une sauvegarde.</li>
+</ul>
+<figure class="image"><img src="https://dev.jeemate.fr/wp-content/uploads/2021/07/jeemate_configuration.webp" alt="" srcset="https://jeemate.fr/wp-content/uploads/2021/07/jeemate_configuration.webp 307w, https://jeemate.fr/wp-content/uploads/2021/07/jeemate_configuration-154x300.webp 154w" sizes="100vw" width="307"></figure>
+<h3>&nbsp;</h3>
+<h1>Géoloc</h1>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1>Connecteur Jeedom</h1>
+<ul>
+  <li>Activer/Désactiver la connexion avec votre serveur Jeedom</li>
+  <li>Paramètres de connexion à votre serveur Jeedom (adresse interne, externe etc) récupérés lors du scan de qrcode</li>
+  <li>Local Wifi : vous pouvez soit cliquer sur le bouton, soit saisir votre Nom de Wifi local.</li>
+  <li>Scanner le QR Code : permet de rescanner le QR Code de votre équipement dans le plugin JeeMate et ainsi mettre à jour la configuration ci-dessus</li>
+  <li>Re-générer l’interface : importe vos équipements Jeedom dans JeeMate</li>
+  <li>Effacer les favoris : permet de réinitialiser l’affichage des favoris dans l’onglet Maison</li>
+  <li>Effacer l’interface : permet de réinitialiser complètement l’interface</li>
+  <li>Tester la connexion : permet de tester la connexion entre l’application mobile et votre serveur Jeedom</li>
+</ul>
+<figure class="image"><img src="https://jeemate.fr/wp-content/uploads/2021/07/jeemate_jeedom_settings.webp" alt="" srcset="https://jeemate.fr/wp-content/uploads/2021/07/jeemate_jeedom_settings.webp 307w, https://jeemate.fr/wp-content/uploads/2021/07/jeemate_jeedom_settings-154x300.webp 154w" sizes="100vw" width="307"></figure>
+<h1>Caméra</h1>
+<p><i>Temporairement désactivé</i></p>
+<ul>
+  <li>Streaming (pas encore disponible)</li>
+  <li>Activer la reconnaissance d’objets (exemple : détection humain)</li>
+  <li>La précision de la reconnaissance (score mini)</li>
+</ul>
+<figure class="image"><img src="https://jeemate.fr/wp-content/uploads/2021/07/jeemate_intcam_settings-300x266.webp" alt="" srcset="https://jeemate.fr/wp-content/uploads/2021/07/jeemate_intcam_settings-300x266.webp 300w, https://jeemate.fr/wp-content/uploads/2021/07/jeemate_intcam_settings-1024x907.webp 1024w, https://jeemate.fr/wp-content/uploads/2021/07/jeemate_intcam_settings-768x680.webp 768w, https://jeemate.fr/wp-content/uploads/2021/07/jeemate_intcam_settings.webp 1079w" sizes="100vw" width="300"></figure>
+<h1>Reconnaissance vocale</h1>
+<p>JeeMate permet de contrôler votre Jeedom, en mode offline. C’est-à-dire que la reconnaissance du hotword ainsi que la transcription de la voix en texte est faite sur votre appareil, et ne passe pas par le Cloud.</p>
+<ul>
+  <li>Interactions : si l’option est activée, la commande vocale est envoyée aux Interactions Jeedom</li>
+  <li>Rhasspy plugin : si l’option est activée, la commande vocale est envoyée à Rhasspy</li>
+  <li>Toujours active : si l’option est activée, l’appareil reste en permanence sur écoute, en attente d’une commande. Dans ce mode, la configuration d’un hotword est obligatoire</li>
+  <li>Hotword : la phrase clé que vous souhaitez pour valider une commande. Exemple : «&nbsp;Jasper&nbsp;», «&nbsp;Dis Toto&nbsp;» etc</li>
+</ul>
+<figure class="image"><img src="https://jeemate.fr/wp-content/uploads/2021/07/jeemate_recovocal_settings-300x282.webp" alt="" srcset="https://jeemate.fr/wp-content/uploads/2021/07/jeemate_recovocal_settings-300x282.webp 300w, https://jeemate.fr/wp-content/uploads/2021/07/jeemate_recovocal_settings-1024x964.webp 1024w, https://jeemate.fr/wp-content/uploads/2021/07/jeemate_recovocal_settings-768x723.webp 768w, https://jeemate.fr/wp-content/uploads/2021/07/jeemate_recovocal_settings.webp 1079w" sizes="100vw" width="300"></figure>
+<h1>Service SMS</h1>
+<p><i>Version Hors Stores (Android)</i></p>
+<p>Il est possible d’utiliser un ancien mobile comme passerelle entre Jeedom et les SMS.</p>
+<ul>
+  <li>Autoriser ou non l’envoi de SMS depuis Jeedom</li>
+  <li>Autoriser ou non la réception de SMS</li>
+  <li>Interactions : si l’option est activée, le contenu du SMS est envoyé aux Interactions Jeedom</li>
+  <li>Rhasspy plugin : si l’option est activée, le contenu du SMS est envoyé au plugin Rhasspy</li>
+  <li>Liste blanche permet d’ajouter/supprimer des contacts autorisés. Tout SMS, envoyé par un contact non présent dans cette liste blanche, ne sera pas transmis à Jeedom</li>
+</ul>
+<figure class="image"><img src="https://jeemate.fr/wp-content/uploads/2021/07/jeemate_sms_settings-268x300.webp" alt="" srcset="https://jeemate.fr/wp-content/uploads/2021/07/jeemate_sms_settings-268x300.webp 268w, https://jeemate.fr/wp-content/uploads/2021/07/jeemate_sms_settings-916x1024.webp 916w, https://jeemate.fr/wp-content/uploads/2021/07/jeemate_sms_settings-768x858.webp 768w, https://jeemate.fr/wp-content/uploads/2021/07/jeemate_sms_settings.webp 1079w" sizes="100vw" width="268"></figure>
+<h1>Service SIP</h1>
+<p>Il est possible de connecter JeeMate à un serveur compatible Asterisk, et d’effectuer ou recevoir des appels audios/vidéos SIP (softphones, portier vidéo etc)</p>
+<p>Exemple d’un appel softphone Windows (PC sans webcam) vers JeeMate</p>
+<figure class="image"><img src="https://jeemate.fr/wp-content/uploads/2021/07/sip_call-287x300.webp" alt="" srcset="https://jeemate.fr/wp-content/uploads/2021/07/sip_call-287x300.webp 287w, https://jeemate.fr/wp-content/uploads/2021/07/sip_call-981x1024.webp 981w, https://jeemate.fr/wp-content/uploads/2021/07/sip_call-768x802.webp 768w, https://jeemate.fr/wp-content/uploads/2021/07/sip_call.webp 1226w" sizes="100vw" width="287"></figure>
+<h1>Sécurité</h1>
+<ul>
+  <li>Activer biométriques : permet d’activer la reconnaissance sur empreinte digitale, ou faciale</li>
+  <li>Activer digicode : permet d’activer l’utilisation d’un digicode</li>
+  <li>Digicode : saisir le code souhaité</li>
+  <li>Sécuriser lancement JeeMate : permet de sécuriser le lancement de l’app avec une des options ci-dessus</li>
+  <li>Sécuriser menu Configuration : permet de sécuriser l’accès au menu Configuration de JeeMate, cela bloque également toutes les configuration accessible sur les pages, tuiles, onglets.</li>
+</ul>
+<p><strong>Si vous configurez un mot de passe sur vos commandes dans Jeedom (dans les paramètres des commandes), alors ce sera dernier qui sera utilisé en priorité. Le digicode sera d’ailleurs affiché même si le digicode n’est pas activé.</strong></p>
+<figure class="image"><img src="https://jeemate.fr/wp-content/uploads/2021/07/jeemate_security_settings.webp" alt="" srcset="https://jeemate.fr/wp-content/uploads/2021/07/jeemate_security_settings.webp 307w, https://jeemate.fr/wp-content/uploads/2021/07/jeemate_security_settings-154x300.webp 154w" sizes="100vw" width="307"></figure>
+<h1>Interface</h1>
+<ul>
+  <li>Choix de la langue. Pour l’instant les langues disponibles sont Français, Anglais, et Espagnol. D’autres seront ajoutées. La langue est automatiquement sélectionnée en fonction de celle qui est configurée dans votre appareil mobile.</li>
+  <li>Activer/désactiver Image de fond pour l’onglet Favoris Maison</li>
+  <li>Choix de l’image de fond pour l’onglet Favoris Maison</li>
+  <li>Activer/Désactiver le changement automatique de thème Jour/Nuit</li>
+  <li>Choix du Dégradé pour le thème Jour</li>
+  <li>Choix du Dégradé pour le thème Nuit</li>
+  <li>Thème : Morphic ou Glass</li>
+  <li>Mode : Jour ou Nuit</li>
+</ul>
+<figure class="image"><img src="https://jeemate.fr/wp-content/uploads/2021/07/jeemate_theme_settings1.webp" alt="" srcset="https://jeemate.fr/wp-content/uploads/2021/07/jeemate_theme_settings1.webp 307w, https://jeemate.fr/wp-content/uploads/2021/07/jeemate_theme_settings1-154x300.webp 154w" sizes="100vw" width="307"></figure>
+<ul>
+  <li>Transparence/opacité et couleurs des tuiles: uniquement disponible en thème Glass</li>
+  <li>Transparence par défaut utilisée lorsque la tuile est à l’état ON</li>
+  <li>Transparence par défaut utilisée lorsque la tuile est à l’état OFF</li>
+  <li>Couleurs des différentes zones dans les tuiles et l’application</li>
+</ul>
+<p><strong>Si vous ne souhaitez pas avoir de différence de transparence lorsque la tuile est ON/OFF, alors il suffit de mettre les 2 sliders sur la même valeur.</strong></p>
+<figure class="image"><img src="https://jeemate.fr/wp-content/uploads/2021/07/jeemate_theme_settings2.webp" alt="" srcset="https://jeemate.fr/wp-content/uploads/2021/07/jeemate_theme_settings2.webp 308w, https://jeemate.fr/wp-content/uploads/2021/07/jeemate_theme_settings2-154x300.webp 154w" sizes="100vw" width="308"></figure>
+<h1>Sauver/Importer App</h1>
+<ul>
+  <li>Sauvegarder : permet d’enregistrer toute la configuration de votre application mobile, paramètres et interface, dans votre serveur Jeedom. Vous devez saisir un nom pour votre sauvegarde.</li>
+  <li>Sauvegardes disponibles : permet de récupérer dans votre serveur Jeedom la sauvegarde de votre application mobile. La Liste des sauvegardes disponibles est automatiquement rafraîchie ou en cliquant sur «&nbsp;Sauvegardes disponibles.&nbsp;»</li>
+  <li>Dans le plugin JeeMate, vous pouvez ensuite aller sur votre équipement et définir si votre sauvegarde est globale ou non. Si elle est globale, alors elle sera disponible pour vos autres équipements afin de la partager.</li>
+</ul>
+<figure class="image"><img src="https://jeemate.fr/wp-content/uploads/2021/07/jeemate_backup-599x1024.webp" alt="" srcset="https://jeemate.fr/wp-content/uploads/2021/07/jeemate_backup-599x1024.webp 599w, https://jeemate.fr/wp-content/uploads/2021/07/jeemate_backup-175x300.webp 175w, https://jeemate.fr/wp-content/uploads/2021/07/jeemate_backup-768x1313.webp 768w, https://jeemate.fr/wp-content/uploads/2021/07/jeemate_backup-898x1536.webp 898w, https://jeemate.fr/wp-content/uploads/2021/07/jeemate_backup.webp 1080w" sizes="100vw" width="300"></figure>
+<h2>Capteurs disponibles sur votre appareil JeeMate</h2>
+<figure class="table" style="width:999.9px;">
+  <table style="background-color:rgb(9, 12, 16);border-bottom:0px solid rgba(0, 0, 0, 0.1);border-left:1px solid rgba(0, 0, 0, 0.1);border-right:0px solid rgba(0, 0, 0, 0.1);border-top:1px solid rgba(0, 0, 0, 0.1);">
+    <tbody>
+      <tr>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;"><strong>Nom</strong></td>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;"><strong>Sous-type</strong></td>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;"><strong>Description</strong></td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;">State Lux Sensor</td>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;">Info</td>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;">Luminosité (en Lux) détectée par votre appareil JeeMate</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;">State Battery</td>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;">Info</td>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;">Niveau de batterie de votre appareil JeeMate</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;">State Signal</td>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;">Info</td>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;">Qualité de réception (en dB) de votre appareil JeeMate</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;">IP JeeMate</td>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;">Info</td>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;">Addresse IP de votre appareil JeeMate</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;">Charging State</td>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;">Info</td>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;">Statut de charge de l’appareil</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;">Geoloc Position</td>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;">Info</td>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;">Position GPS de votre appareil</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;">(geoloc) geofence</td>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;">Info</td>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;">Une info binaire par zone</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;">(geoloc) Distance de geofence</td>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;">Info</td>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;">Distance en mètres depuis votre position à la bordure de la zone</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<h3>&nbsp;</h3>
+<h2>Send SMS</h2>
+<p>Send SMS est une commande de type message que vous pouvez utiliser depuis votre serveur Jeedom, par exemple dans les scénarios, afin d’envoyer un SMS depuis l’application mobile JeeMate.</p>
+<figure class="table" style="width:999.9px;">
+  <table style="background-color:rgb(9, 12, 16);border-bottom:0px solid rgba(0, 0, 0, 0.1);border-left:1px solid rgba(0, 0, 0, 0.1);border-right:0px solid rgba(0, 0, 0, 0.1);border-top:1px solid rgba(0, 0, 0, 0.1);">
+    <tbody>
+      <tr>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;"><strong>Paramètre</strong></td>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;"><strong>Valeur</strong></td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;">Titre</td>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;">N° téléphone destinataire</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;">Message</td>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;">Le message à envoyer</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<h2>TTS Speak</h2>
+<p>TTS Speak est une commande de type message que vous pouvez utiliser depuis votre serveur Jeedom, par exemple dans les scénarios, afin de faire parler l’application mobile JeeMate.</p>
+<figure class="table" style="width:999.9px;">
+  <table style="background-color:rgb(9, 12, 16);border-bottom:0px solid rgba(0, 0, 0, 0.1);border-left:1px solid rgba(0, 0, 0, 0.1);border-right:0px solid rgba(0, 0, 0, 0.1);border-top:1px solid rgba(0, 0, 0, 0.1);">
+    <tbody>
+      <tr>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;"><strong>Paramètre</strong></td>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;"><strong>Valeur</strong></td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;">Message</td>
+        <td style="border-bottom:1px solid rgba(0, 0, 0, 0.1);border-left:0px solid rgba(0, 0, 0, 0.1);border-right:1px solid rgba(0, 0, 0, 0.1);border-top:0px solid rgba(0, 0, 0, 0.1);padding:8px;">Le message à envoyer</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
