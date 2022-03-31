@@ -2,7 +2,7 @@
 title: Configuration
 description: 
 published: true
-date: 2022-03-31T19:20:41.095Z
+date: 2022-03-31T19:25:31.727Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-13T19:10:49.031Z
@@ -22,7 +22,7 @@ Le menu « Configuration » permet de paramétrer :
 -   Thèmes&Langues. Entre autres, afficher une image, ou des dégradés de couleurs, en fond d’écran, activer le thème jour/nuit, choisir les fonds d’écran pour chaque mode etc
 -   Sauver/Importer App. Permet de sauvegarder la configuration, les favoris, pièces etc de JeeMate dans votre serveur Jeedom. Importer permet donc de réimporter une sauvegarde.
 
-![](https://dev.jeemate.fr/wp-content/uploads/2021/07/jeemate_configuration.webp)
+![jeemate_configuration.webp](/img/doc/jeemate_configuration.webp)
 
 # Géoloc
 
@@ -37,8 +37,7 @@ Le menu « Configuration » permet de paramétrer :
 -   Effacer l’interface : permet de réinitialiser complètement l’interface
 -   Tester la connexion : permet de tester la connexion entre l’application mobile et votre serveur Jeedom
 
-![](https://jeemate.fr/wp-content/uploads/2021/07/jeemate_jeedom_settings.webp)
-
+![jeemate_configuration.webp](/img/doc/jeemate_jeedom_settings.webp)
 # Caméra
 
 *Temporairement désactivé*
@@ -47,8 +46,7 @@ Le menu « Configuration » permet de paramétrer :
 -   Activer la reconnaissance d’objets (exemple : détection humain)
 -   La précision de la reconnaissance (score mini)
 
-![](https://jeemate.fr/wp-content/uploads/2021/07/jeemate_intcam_settings-300x266.webp)
-
+![jeemate_configuration.webp](/img/doc/jeemate_intcam_settings-300x266.webp)
 # Reconnaissance vocale
 
 JeeMate permet de contrôler votre Jeedom, en mode offline. C’est-à-dire que la reconnaissance du hotword ainsi que la transcription de la voix en texte est faite sur votre appareil, et ne passe pas par le Cloud.
@@ -58,7 +56,7 @@ JeeMate permet de contrôler votre Jeedom, en mode offline. C’est-à-dire que 
 -   Toujours active : si l’option est activée, l’appareil reste en permanence sur écoute, en attente d’une commande. Dans ce mode, la configuration d’un hotword est obligatoire
 -   Hotword : la phrase clé que vous souhaitez pour valider une commande. Exemple : « Jasper », « Dis Toto » etc
 
-![](https://jeemate.fr/wp-content/uploads/2021/07/jeemate_recovocal_settings-300x282.webp)
+![jeemate_configuration.webp](/img/doc/jeemate_recovocal_settings-300x282.webp)
 
 # Service SMS
 
@@ -72,15 +70,14 @@ Il est possible d’utiliser un ancien mobile comme passerelle entre Jeedom et l
 -   Rhasspy plugin : si l’option est activée, le contenu du SMS est envoyé au plugin Rhasspy
 -   Liste blanche permet d’ajouter/supprimer des contacts autorisés. Tout SMS, envoyé par un contact non présent dans cette liste blanche, ne sera pas transmis à Jeedom
 
-![](https://jeemate.fr/wp-content/uploads/2021/07/jeemate_sms_settings-268x300.webp)
-
+![jeemate_configuration.webp](/img/doc/jeemate_sms_settings-268x300.webp)
 # Service SIP
 
 Il est possible de connecter JeeMate à un serveur compatible Asterisk, et d’effectuer ou recevoir des appels audios/vidéos SIP (softphones, portier vidéo etc)
 
 Exemple d’un appel softphone Windows (PC sans webcam) vers JeeMate
 
-![](https://jeemate.fr/wp-content/uploads/2021/07/sip_call-287x300.webp)
+![jeemate_configuration.webp](/img/doc/sip_call-287x300.webp)
 
 # Sécurité
 
@@ -92,8 +89,7 @@ Exemple d’un appel softphone Windows (PC sans webcam) vers JeeMate
 
 **Si vous configurez un mot de passe sur vos commandes dans Jeedom (dans les paramètres des commandes), alors ce sera dernier qui sera utilisé en priorité. Le digicode sera d’ailleurs affiché même si le digicode n’est pas activé.**
 
-![](https://jeemate.fr/wp-content/uploads/2021/07/jeemate_security_settings.webp)
-
+![jeemate_configuration.webp](/img/doc/jeemate_security_settings.webp)
 # Interface
 
 -   Choix de la langue. Pour l’instant les langues disponibles sont Français, Anglais, et Espagnol. D’autres seront ajoutées. La langue est automatiquement sélectionnée en fonction de celle qui est configurée dans votre appareil mobile.
@@ -105,7 +101,7 @@ Exemple d’un appel softphone Windows (PC sans webcam) vers JeeMate
 -   Thème : Morphic ou Glass
 -   Mode : Jour ou Nuit
 
-![](https://jeemate.fr/wp-content/uploads/2021/07/jeemate_theme_settings1.webp)
+![jeemate_configuration.webp](/img/doc/jeemate_theme_settings1.webp)
 
 -   Transparence/opacité et couleurs des tuiles: uniquement disponible en thème Glass
 -   Transparence par défaut utilisée lorsque la tuile est à l’état ON
@@ -114,7 +110,7 @@ Exemple d’un appel softphone Windows (PC sans webcam) vers JeeMate
 
 **Si vous ne souhaitez pas avoir de différence de transparence lorsque la tuile est ON/OFF, alors il suffit de mettre les 2 sliders sur la même valeur.**
 
-![](https://jeemate.fr/wp-content/uploads/2021/07/jeemate_theme_settings2.webp)
+![jeemate_configuration.webp](/img/doc/jeemate_theme_settings2.webp)
 
 # Sauver/Importer App
 
@@ -122,7 +118,8 @@ Exemple d’un appel softphone Windows (PC sans webcam) vers JeeMate
 -   Sauvegardes disponibles : permet de récupérer dans votre serveur Jeedom la sauvegarde de votre application mobile. La Liste des sauvegardes disponibles est automatiquement rafraîchie ou en cliquant sur « Sauvegardes disponibles. »
 -   Dans le plugin JeeMate, vous pouvez ensuite aller sur votre équipement et définir si votre sauvegarde est globale ou non. Si elle est globale, alors elle sera disponible pour vos autres équipements afin de la partager.
 
-![](https://jeemate.fr/wp-content/uploads/2021/07/jeemate_backup-599x1024.webp)
+![jeemate_configuration.webp](/img/doc/jeemate_backup-599x1024.webp)
+
 
 ## Capteurs disponibles sur votre appareil JeeMate
 
