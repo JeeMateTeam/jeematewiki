@@ -2,7 +2,7 @@
 title: Notifications
 description: 
 published: true
-date: 2022-03-31T19:40:37.543Z
+date: 2022-03-31T19:58:27.242Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-13T19:32:26.432Z
@@ -20,8 +20,7 @@ Les notifications personnalisées sont plus simples à mettre en œuvre.
 
 Avant tout, il est important d’activer les notifications dans l’application Jeemate.  
  
-
-![](https://jeemate.fr/wp-content/uploads/2021/11/IMG_20211105_220431-1024x713.jpg)
+![](/img/doc/IMG_20211105_220431-768x534.jpg.webp)
 
 Ici vous devez activer les notifications.  
 Vous pouvez aussi les passer en mode vocal, dans ce cas elles seront lues lors de leur ouverture.  
@@ -29,23 +28,19 @@ En fonction de vos préférences, régler plus ou moins la rapidité de lecture.
 
 Suivant votre appareil, il vous sera sans doute nécessaire d’effectuer des réglages Système et de configurer vos différents types de notifications :
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/Alerte01.jpg)
-
-  
-  
- 
+![Alerte01-300x231.jpg.webp](/img/doc/Alerte01-300x231.jpg.webp)
 
 _Notification générale :_
 
 La commande (N) Notif Général est créée automatiquement lors de la création de votre équipement.
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/Notif01.png)
+![Notif01.png.webp](/img/doc/Notif01.png.webp)
 
 Vous pourrez utiliser celle-ci de la plus simple des façons, jusqu’à(s) des personnalisations plus poussées.
 
 Commençons par une notification classique :
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/Notif02-1024x63.png)
+![Notif02-1536x94.png.webp](/img/doc/Notif02-1536x94.png.webp)
 
 Dans le champ titre, il vous est possible de configurer différents aspects de votre notification.
 
@@ -71,11 +66,11 @@ Exemple avec un scénario de test :
 
 Dans Jeedom, créez un nouveau scénario et importez le template suivant (enlevez l’extension txt)
 
-[_TestNotifJeemate.json_Télécharger](https://jeemate.fr/wp-content/uploads/2021/11/TestNotifJeemate.json-1.txt)
+[TestAskJeemate.json.txt](/img/doc/TestAskJeemate.json.txt)
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/Template-1024x182.png)
+![Template-1536x273.png.webp](/img/doc/Template-1536x273.png.webp)
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/template2-1024x202.png)
+![template2-1536x304.png.webp](/img/doc/template2-1536x304.png.webp)
 
 1 – Importer le fichier template que vous venez de télécharger.  
 2 – Sélectionner le.  
@@ -86,19 +81,19 @@ Le scénario est prêt à être utilisé, il envoie 7 notifications avec à chaq
 
 1 – Pour débuter seulement le titre en gras.
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/ScenarioNotifJ-7-1024x265.jpg)
+![ScenarioNotifJ-7.jpg.webp](/img/doc/ScenarioNotifJ-7.jpg.webp)
 
 Notification Jeemate
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/ScenarioNotif-2-1024x296.jpg)
+![ScenarioNotif-2.jpg.webp](/img/doc/ScenarioNotif-2.jpg.webp)
 
 Notification Système
 
 2 – Personnalisation de la couleur et de l’icône dans la bulle.
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/ScenarioNotifJ-6-1024x307.jpg)
+![ScenarioNotifJ-6.jpg.webp](/img/doc/ScenarioNotifJ-6.jpg.webp)
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/ScenarioNotif-3-1024x298.jpg)
+![ScenarioNotif-3.jpg.webp](/img/doc/ScenarioNotif-3.jpg.webp)
 
 3 – Ajout d’un smiley et modification de la couleur du texte.  
 Suivant les versions de Jeedom, le champ titre peut ne pas accepter les smileys, passez par un tag pour contourner le soucis.
@@ -106,43 +101,41 @@ Suivant les versions de Jeedom, le champ titre peut ne pas accepter les smileys,
 L’emoji peut être saisi selon différents formats.  
 L’exemple ci-dessous est au format PHP & Ruby: \\u suivi de l’emoji 26C4 entre crochet. \\u{26c4}  
 Liste d’emojis ici : [_https://www.w3schools.com/charsets/ref\_emoji\_smileys.asp_](https://www.w3schools.com/charsets/ref_emoji_smileys.asp)  
- 
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/ScenarioNotifJ-4-1024x256.jpg)
+![ScenarioNotifJ-4.jpg.webp](/img/doc/ScenarioNotifJ-4.jpg.webp)
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/ScenarioNotif-4-1024x300.jpg)
+![ScenarioNotif-4.jpg.webp](/img/doc/ScenarioNotif-4.jpg.webp)
 
 4 – Ajout d’une image dans le centre de notifications de Jeemate.
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/ScenarioNotifJ-3-1024x530.jpg)
+![ScenarioNotifJ-3.jpg.webp](/img/doc/ScenarioNotifJ-3.jpg.webp)
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/ScenarioNotif-5-1024x289.jpg)
+![ScenarioNotif-5.jpg.webp](/img/doc/ScenarioNotif-5.jpg.webp)
 
 5 – Rendre visible cette même image dans le centre de notifications du système.
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/ScenarioNotifJ-5-1024x551.jpg)
+![ScenarioNotifJ-3.jpg.webp](/img/doc/ScenarioNotifJ-5.jpg.webp)
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/ScenarioNotif-6-1024x763.jpg)
+![ScenarioNotif-6-1024x763.jpg.webp](/img/doc/ScenarioNotif-6-1024x763.jpg.webp)
 
 6 – Personnalisation de l’icône qui se trouve à droite du texte dans le centre de notifications système.
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/ScenarioNotifJ-1-1024x560.jpg)
+![ScenarioNotifJ-1.jpg.webp](/img/doc/ScenarioNotifJ-1.jpg.webp)
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/ScenarioNotif-7-1024x762.jpg)
+![ScenarioNotif-7-768x572.jpg.webp](/img/doc/ScenarioNotif-7-768x572.jpg.webp)
 
 7 – Personnalisation de l’icône Jeemate dans le centre de notifications système.
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/ScenarioNotifJ-2-1024x576.jpg)
+![ScenarioNotifJ-2.jpg.webp](/img/doc/ScenarioNotifJ-2.jpg.webp)
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/ScenarioNotif-1-1024x758.jpg)
+![ScenarioNotif-1-768x569.jpg.webp](/img/doc/ScenarioNotif-1-768x569.jpg.webp)
 
 _Notifications personnalisées_ :
 
 Les notifications personnalisées sont à configurer dans l’onglet Notification du plugin Jeemate.
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/NotifPerso01-resize-1024x191.png)
-
-![](https://jeemate.fr/wp-content/uploads/2021/11/NotifPerso02-resize.png)
+![NotifPerso01-resize-768x143.png.webp](/img/doc/NotifPerso01-resize-768x143.png.webp)
+![NotifPerso02-resize.png.webp](/img/doc/NotifPerso02-resize.png.webp)
 
 Nom : celui qui vous permettra de retrouver la commande, elle sera sous la forme (N) votre nom  
 Icône : sélectionner l’icône qui sera affiché dans le centre de notifications Jeemate.  
@@ -158,21 +151,20 @@ Design : Sélectionner en fonction du type de notification que vous souhaitez re
 
 Voici un exemple sur une notification Alerte, ici on choisit une couleur rouge et un icône explicite. On la classe dans un groupe Alerte et on met la puissance Max.
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/NotifPerso03-1-1024x105.png)
+![NotifPerso03-1-1536x157.png.webp](/img/doc/NotifPerso03-1-1536x157.png.webp)
 
 Avant de pouvoir utiliser votre notification, il est important d’ouvrir l’équipement (smartphone ou tablette) dans le plugin Jeemate et de faire un click sur sauvegarder, cela afin d’y remonter la nouvelle commande créée.  
   
 A savoir que lorsque vous créez un nouvel équipement, toutes les notifications présentes dans l’onglet Notification seront automatiquement ajoutées.
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/NotifPerso04-1024x143.png)
+![NotifPerso04-1536x215.png.webp](/img/doc/NotifPerso04-1536x215.png.webp)
 
 Maintenant, vous pouvez utiliser cette notification dans vos scénarios d’alerte.
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/NotifPerso05-1024x64.png)
+![NotifPerso05-1536x96.png.webp](/img/doc/NotifPerso05-1536x96.png.webp)
+![Alerte02-768x288.jpg.webp](/img/doc/Alerte02-768x288.jpg.webp)
+![Alerte03.jpg.webp](/img/doc/Alerte03.jpg.webp)
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/Alerte02.jpg)
-
-![](https://jeemate.fr/wp-content/uploads/2021/11/Alerte03.jpg)
 
 _Ask :_
 
@@ -181,19 +173,19 @@ Avec la commande de notification générale, il vous est possible de gérer ces 
   
 Exemple d’un scénario ASK simple et de l’affichage de celui-ci soit dans le centre de notifications système, soit dans le centre de notifications Jeemate.
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/Scenario.png)
+![](/img/doc/Scenario.png.webp)
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/ASK-2-975x1024.jpg)
+![ASK-2.jpg.webp](/img/doc/ASK-2.jpg.webp)
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/ASK-3-988x1024.jpg)
+![ASK-3.jpg.webp](/img/doc/ASK-3.jpg.webp)
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/ASK-5-1024x383.jpg)
+![ASK-5.jpg.webp](/img/doc/ASK-5.jpg.webp)
 
 Il vous est possible de laisser le champ réponse vide, dans ce cas Jeemate attendra une réponse écrite. Vous aurez donc ceci comme notification :
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/ASK-6-1024x383.jpg)
+![ASK-6.jpg.webp](/img/doc/ASK-6.jpg.webp)
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/ASK-1-1024x383.jpg)
+![ASK-1.jpg.webp](/img/doc/ASK-1.jpg.webp)
 
 Scénario de test Ask avec réponse enregistré et réponse libre.  
   
@@ -201,8 +193,7 @@ Question avec 3 réponses = bonne réponse = fin
 Question avec 3 réponses = mauvaise réponse = question avec réponse libre  
   
  
-
-[_TestAskJeemate.json_Télécharger](https://jeemate.fr/wp-content/uploads/2021/11/TestAskJeemate.json.txt)
+[TestAskJeemate.json.txt](/img/doc/TestAskJeemate.json.txt)
 
 A vous de jouer !  
 En cas de soucis, venez nous en parler sur Discord et n’oubliez pas, afin que l’on puisse au mieux vous aider, de nous préciser :  
