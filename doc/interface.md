@@ -2,7 +2,7 @@
 title: Interface
 description: 
 published: true
-date: 2022-03-31T19:25:57.431Z
+date: 2022-03-31T19:40:13.202Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-13T19:15:34.386Z
@@ -21,7 +21,7 @@ L’application est décomposée en quatre onglets, par défaut. Il est possible
 -   Designs Jeedom et pages web favorites
 -   Caméras
 
-![](https://jeemate.fr/wp-content/uploads/2021/10/Interface-481x1024.jpg)
+![Interface-481x1024.jpg.webp](/img/doc/Interface-481x1024.jpg.webp)
 
 Pour naviguer entre les onglets, il suffit de cliquer sur les boutons dans la barre d’onglets en bas de l’application.
 
@@ -29,7 +29,7 @@ Lorsque vous cliquez sur les boutons Pièces, ainsi que Designs, une liste appar
 
 Pour créer un nouvel onglet, ou éditer un onglet existant il suffit de faire un appui long sur la barre d’onglet afin d’afficher la page d’édition.
 
-![](https://jeemate.fr/wp-content/uploads/2021/10/Onglets-1-930x1024.jpg)
+![](/img/doc/Onglets-1-273x300.jpg.webp)
 
 Depuis la page d’édition, faire un appui long puis glisser pour réorganiser les onglets et cocher pour rendre visible.
 
@@ -37,13 +37,14 @@ Depuis la page d’édition, faire un appui long puis glisser pour réorganiser 
 
 Cliquer sur le nom d’un onglet pour accéder à sa configuration.
 
-![](https://jeemate.fr/wp-content/uploads/2021/10/Onglet-configuration-2-706x1024.jpg)
+![](/img/doc/Onglet-configuration-2-207x300.jpg.webp)
+
 
 # Onglets Favoris Maison
 
 L’écran principal contient les sections suivantes :
 
-![](https://jeemate.fr/wp-content/uploads/2021/10/zone-interface.png)
+![](/img/doc/zone-interface.png.webp)
 
 1.  Barre d’outil tout en haut.  
     Permet d’accéder au menu latéral gauche de configuration JeeMate, au statut de connexion, aux notifications, de rafraîchir les statuts des équipements, ou bien d’ouvrir le menu latéral droit.
@@ -52,7 +53,7 @@ L’écran principal contient les sections suivantes :
 4.  Equipements et applications Android favoris
 5.  barre d’onglets
 
-![](https://jeemate.fr/wp-content/uploads/2021/10/resume.png)
+![](/img/doc/resume.png.webp)
 
 Les résumés peuvent être personnalisés. Pour cela il suffit de faire un appui long sur la barre de résumés. Vous pourrez alors modifier les icônes et couleurs. Pour revenir en arrière et avoir de nouveau les icones et couleur configuré dans Jeedom, faite réinitialiser puis sélectionner les icones souhaitées.
 
@@ -60,7 +61,7 @@ Les résumés peuvent être personnalisés. Pour cela il suffit de faire un appu
 
 Pour ajouter un favori (Équipements, Scénarios, Groupes, Applis Android), cliquez sur le crayon en haut à gauche de l’écran, puis choisir le type de favori que vous souhaitez ajouter.
 
-![](https://jeemate.fr/wp-content/uploads/2021/10/favoris-704x1024.jpg)
+![favoris-206x300.jpg.webp](/img/doc/favoris-206x300.jpg.webp)
 
 ### Personnalisation des tuiles
 
@@ -76,23 +77,23 @@ Note: le menu est disponible si le mode « Éditer » est **inactif**.
 
 D’autres options peuvent être accessibles en fonction du type de tuile (Groupes/Panels etc)
 
-![](https://jeemate.fr/wp-content/uploads/2021/10/EditionTuile-971x1024.jpg)
+![EditionTuile-285x300.jpg.webp](/img/doc/EditionTuile-285x300.jpg.webp)
 
 Tuile Taille mini ou normale :
 
-![](https://jeemate.fr/wp-content/uploads/2021/10/MiniNormale.jpg)
+![MiniNormale-300x168.jpg.webp](/img/doc/MiniNormale-300x168.jpg.webp)
 
 Contenu centré ou aligné à gauche :
 
-![](https://jeemate.fr/wp-content/uploads/2021/10/IMG_20211029_144514-2.jpg)
+![IMG_20211029_144514-2-300x151.jpg.webp](/img/doc/IMG_20211029_144514-2-300x151.jpg.webp)
 
 Grille : permet de changer le nombre de colonnes de tuiles dans les onglets.
 
-![](https://jeemate.fr/wp-content/uploads/2021/10/Grille.gif)
+![Grille.gif](/img/doc/Grille.gif)
 
 Configuration : Ici on accède à tous les réglages disponible sur une tuile (changer le nom, l’icone, etc…)
 
-![](https://jeemate.fr/wp-content/uploads/2021/10/ConfigurationTuile-680x1024.jpg)
+![ConfigurationTuile-768x1156.jpg.webp](/img/doc/ConfigurationTuile-768x1156.jpg.webp)
 
 **Configurer les commandes (coché)**  
   
@@ -117,7 +118,7 @@ Il vous est possible d’ajouter des conditions (voir info dédié)
 
 **Personnaliser tuile :**
 
-![](https://jeemate.fr/wp-content/uploads/2021/10/PersonnaliserTuile.jpg)
+![PersonnaliserTuile.jpg.webp](/img/doc/PersonnaliserTuile.jpg.webp)
 
 **D’autres options peuvent être accessibles en fonction du type de tuile (Groupes/Panels etc)**
 
@@ -139,19 +140,19 @@ Sur les tuiles actions du style lumières, volets, ouvre la page des commandes s
 
 | **Thermostat** | **Alarme** | **Mode** |
 | --- | --- | --- |
-| ![](https://jeemate.fr/wp-content/uploads/2021/10/PageThermostat-scaled.jpg) | ![](https://jeemate.fr/wp-content/uploads/2021/10/PageAlarme.jpg) | ![](https://jeemate.fr/wp-content/uploads/2021/10/PageMode-scaled.jpg) |
+| ![](/img/doc/PageThermostat-scaled.jpg.webp) | ![](/img/doc/PageAlarme.jpg.webp) | ![](/img/doc/PageMode-scaled.jpg.webp) |
 |     |     |     |
 |     |     |     |
 | Eclairage Luminosité | Eclairage Température de couleur | Eclairage couleur |
-| ![](https://jeemate.fr/wp-content/uploads/2021/10/PageLumiereLum-scaled.jpg) | ![](https://jeemate.fr/wp-content/uploads/2021/10/PageLumiereTemp-scaled.jpg) | ![](https://jeemate.fr/wp-content/uploads/2021/10/PageLumiereCouleur-scaled.jpg) |
+| ![](/img/doc/PageLumiereLum-scaled.jpg.webp) | ![](/img/doc/PageLumiereTemp-scaled.jpg.webp) | ![](/img/doc/PageLumiereCouleur-scaled.jpg.webp) |
 |     |     |     |
 |     |     |     |
 | Multimédia |     |     |
-| ![](https://jeemate.fr/wp-content/uploads/2021/10/PageMultimedia-2-scaled.jpg) |     |     |
+| ![](/img/doc/PageMultimedia-2-scaled.jpg.webp) |     |     |
 
 ## Onglet Pièces
 
-![](https://dev.jeemate.fr/wp-content/uploads/2021/07/Photo1-1.webp)
+![](/img/doc/Photo1-1.webp)
 
 De la même manière que pour l’onglet Favoris, l’écran contient trois sections :
 
@@ -163,7 +164,7 @@ De la même manière que pour l’onglet Favoris, l’écran contient trois sect
 
 Il est possible de customiser l’affichage pour chaque pièces en cliquant sur l’icône d’édition (crayon) en haut à droite dans la barre d’outils JeeMate.
 
-![](https://dev.jeemate.fr/wp-content/uploads/2021/07/jeemate_edit_piece.webp)
+![](/img/doc/jeemate_edit_piece.webp)
 
 Il sera alors possible de :
 
@@ -185,7 +186,7 @@ Cet onglet permet d’afficher des pages web. Telles que :
 
 Pour cela, il suffit de cliquer sur le bouton Onglet « Design » dans la barre en bas, puis sur l’icône « Roue crantée ».
 
-![](https://dev.jeemate.fr/wp-content/uploads/2021/07/jeemate_onglet_design.webp)
+![](/img/doc/jeemate_onglet_design.webp)
 
 Dans la page « Liste des designs », il est possible de :
 
@@ -208,7 +209,7 @@ Pour ajouter un « design » ou url vers une page web, il suffit de cliquer su
 L’onglet Caméras permet de visualiser toutes les caméras disponibles dans Jeedom ou non, et en Live!  
 Les caméras présentes dans Jeedom sont automatiquement importées.
 
-![](https://dev.jeemate.fr/wp-content/uploads/2021/07/jeemate_onglet_camera.webp)
+![](/img/doc/jeemate_onglet_camera.webp)
 
 Cliquer sur le bouton « + » pour ajouter une caméra puis :
 
@@ -225,7 +226,7 @@ Un clic simple sur la caméra permet de l’afficher en plein écran et avoir ac
 
 Accessible depuis le bouton Menu, dans la barre d’outils JeeMate, en haut, il permet :
 
-![](https://dev.jeemate.fr/wp-content/uploads/2021/07/jeemate_burger.webp)
+![](/img/doc/jeemate_burger.webp)
 
 Accessible depuis le bouton Menu, dans la barre d’outils JeeMate, en haut, il permet :
 
