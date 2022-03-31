@@ -2,7 +2,7 @@
 title: Présentation
 description: 
 published: true
-date: 2022-03-31T20:06:15.684Z
+date: 2022-03-31T20:08:28.178Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-13T19:25:38.144Z
@@ -55,53 +55,8 @@ JeeMate gère aussi les droits utilisateurs et mots de passe Jeedom sur les comm
 
 L’utilisation continue du GPS en tâche de fond peut réduire la durée de vie de la batterie. JeeMate contient des paramètres afin d’optimiser ceci.
 
-## Télécharger
-
-###   
-IOS  
-
-![Download on the App Store](https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/fr-fr?size=250x83&releaseDate=1620518400&h=f323a9f888ce552ea36ac7281a9a8088)
-
-[Jeemate IOs](https://apps.apple.com/us/app/jeemate-for-jeedom/id1563421083?itsct=apps_box_badge&itscg=30200)
-
-### Android
-
-![Disponible sur Google Play](https://play.google.com/intl/en_us/badges/static/images/badges/fr_badge_web_generic.png)
-
-[Jeemate Android](https://play.google.com/store/apps/details?id=com.scalz.JeeMate&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)
-
-### Windows
-
-![Microsoft Store badge logo](https://getbadgecdn.azureedge.net/images/French_S.png)
-
-[Jeemate for Windows](https://www.microsoft.com/fr-fr/p/jeemate-for-jeedom/9pf596tjxk94#activetab=pivot:overviewtab)
-
-###   
-SMS + Launcher
-
-![Download Hors Store](https://data.jeemate.fr/iconsAPK.png)
-
-### SMS
-
-![Download Hors Store](https://data.jeemate.fr/iconsAPK.png)
-
-## Nouveautés
-
-### Nouveau Thermostat
-
-![](https://jeemate.fr/wp-content/uploads/2021/10/Thermostat-0.9.7-1024x576.jpg)
-
-### Console de log
-
-![](https://jeemate.fr/wp-content/uploads/2021/10/Console-0.9.7-1024x640.jpg)
-
-### Création de Widget
-
-![](https://jeemate.fr/wp-content/uploads/2021/10/WidgetCreate-0.9.7-1024x640.jpg)
-
 ## Exemples d'interface
 
-![Exemple Interface 5](https://jeemate.fr/wp-content/uploads/2021/07/diapo5-1024x711.webp)
 
 ![Exemple Interface 5](https://jeemate.fr/wp-content/uploads/2021/07/diapo5-1024x711.webp)
 
