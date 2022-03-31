@@ -2,7 +2,7 @@
 title: SendAction
 description: 
 published: true
-date: 2022-03-31T20:03:10.750Z
+date: 2022-03-31T20:05:13.971Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-13T19:35:57.722Z
@@ -72,12 +72,7 @@ pour lancer anticovid saisir _fr.gouv.android.stopcovid_
 
 Pour récupérer facilement le nom de l’apk (android), click long sur l’icone de votre application, informations, puis le petit i en haut à droite.
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/LaunchApp02-300x212.jpg)
-
-  
-  
-  
- 
+![LaunchApp02-300x212.jpg.webp](/img/doc/LaunchApp02-300x212.jpg.webp)
 
 ## _Afficher un design :_
 
@@ -116,13 +111,13 @@ Vous permet de créer un Alarme sur votre devise Android.
 
 Dans le champ titre il vous faut indiquer les informations de répétition, soit non, soit les jours de répétition.
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/android-alarm-03.png)
+![android-alarm-03.png.webp](/img/doc/android-alarm-03.png.webp)
 
   
 Pour que l’alarme soit seulement sur la journée en cour laisser le champ vide.  
 Pour répéter l’alarme le lundi, jeudi et samedi mettre 2,5,7 ou 0,2,5
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/android-alarm-01.png)
+![android-alarm-01.png.webp](/img/doc/android-alarm-01.png.webp)
 
 Exemple sur le dashboard
 
@@ -130,7 +125,7 @@ Dans le champ message indiquer l’heure et le titre de l’alarme sous la forme
 heure;titre  
 12:00;mon alarme
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/android-alarm-02-1024x52.png)
+![android-alarm-02-1536x78.png.webp](/img/doc/android-alarm-02-1536x78.png.webp)
 
 exemple depuis un scénario
 
@@ -152,9 +147,9 @@ Vous permets d’allumer ou d’éteindre votre équipement Android.
 
 Important : il faut autoriser Jeemate à faire un ScreenOnOff dans les paramètre android (Applis d’administration de l’appareil).
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/ShowScreen01.jpg)
+![ShowScreen01-285x300.jpg.webp](/img/doc/ShowScreen01-285x300.jpg.webp)
 
-![](https://jeemate.fr/wp-content/uploads/2021/11/ShowScreen02.jpg)
+![ShowScreen02.jpg.webp](/img/doc/ShowScreen02.jpg.webp)
 
 Pas le choix, il faut en assumer les risques.
 
