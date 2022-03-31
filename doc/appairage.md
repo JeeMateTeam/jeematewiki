@@ -2,7 +2,7 @@
 title: Appairage
 description: 
 published: true
-date: 2022-03-31T19:16:36.508Z
+date: 2022-03-31T19:19:57.435Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-13T19:07:38.093Z
@@ -17,11 +17,12 @@ Ensuite, vous devez **créer un équipement**. Pour cela :
   
 1\. Accéder à la page « Plugins > Communication > JeeMate »
 
-![](https://dev.jeemate.fr/wp-content/uploads/2021/07/jeemate_select_plugin.webp)
+
+![Appairage01-1024x334.png.webp](/img/doc/jeemate_select_plugin.webp)
 
 2\. Cliquer sur « Ajouter » pour créer votre premier appareil.
 
-![](https://jeemate.fr/wp-content/uploads/2021/10/Appairage01-1024x334.png)
+![Appairage01-1024x334.png.webp](/img/doc/Appairage01-1024x334.png.webp)
 
 1.  Saisir/sélectionner les informations concernant votre nouvel appareil: nom, objet Jeedom, utilisateur Jeedom que vous souhaitez rattacher, les droits JeeMate.
 
@@ -29,7 +30,7 @@ Ensuite, vous devez **créer un équipement**. Pour cela :
 -   Droit de renommer : autorise l’utilisateur à renommer l’équipement depuis l’application mobile. Il s’agit d’un nom d’équipement alternatif, il n’écrase pas le nom que vous avez défini dans Jeedom.
 -   Droit de changer la visibilité : permet de choisir depuis l’application mobile les équipements visibles ou non
 
-![](https://dev.jeemate.fr/wp-content/uploads/2021/07/jeemate_add_device_2-1024x428.webp)
+![Appairage01-1024x334.png.webp](/img/doc/jeemate_add_device_2.webp)
 
 1.  Choisir le mode d’appairage:
 
